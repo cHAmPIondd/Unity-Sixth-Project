@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b419951b502aba419b233043c17a627, type: 3}
+  m_Name: 5
+  m_EditorClassIdentifier: 
+  DescribeList:
+  - "\u5E2E\u6211\u770B\u7BA1\u5546\u5E97\uFF1A{\u8BB0\u5F55}\u5546\u54C1\u7684\u9500\u552E\u60C5\u51B5\uFF0C\u548C\u6765\u5E97\u91CC\u7684\u987E\u5BA2{\u804A\u5929}\u3002"
+  SoftwareList:
+  - Software: {fileID: 11400000, guid: 66b8804b13099cb4ab994b2806d25c6a, type: 2}
+    Level: 1
+  - Software: {fileID: 11400000, guid: b5f8a5b1d97669e49bf35ae08dcf675a, type: 2}
+    Level: 1
+  FeedbackList:
+  - EachSoftwareLevel: 0,1
+    FeedbackText:
+    - "\u987E\u5BA2\u5C11\u4E86\u5F88\u591A\uFF0CAI\u6839\u672C\u8FDE\u6B63\u5E38\u7684\u6C9F\u901A\u90FD\u96BE\u4EE5\u8FDB\u884C\u3002 "
+    FinishPercentage: 0.4
+  - EachSoftwareLevel: 1,0
+    FeedbackText:
+    - "\u5546\u54C1\u8BB0\u5F55\u90FD\u662F\u4E71\u7801\u3002 "
+    FinishPercentage: 0.4
+  - EachSoftwareLevel: 0,0
+    FeedbackText:
+    - "\u987E\u5BA2\u5C11\u4E86\u5F88\u591A\uFF0CAI\u6839\u672C\u8FDE\u6B63\u5E38\u7684\u6C9F\u901A\u90FD\u96BE\u4EE5\u8FDB\u884C\u3002"
+    - "\u5546\u54C1\u8BB0\u5F55\u90FD\u662F\u4E71\u7801\u3002 "
+    FinishPercentage: 0

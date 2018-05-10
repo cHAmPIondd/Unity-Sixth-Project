@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88c3eb1db231bf24e81cf53ad6804d3b, type: 3}
+  m_Name: Design
+  m_EditorClassIdentifier: 
+  Name: "\u8BBE\u8BA1"
+  MaxLevel: 2
+  UpgradeCost: 140000003c000000
+  Explain:
+  - "\u5B8C\u6210\u5BB6\u5EAD\u7684\u3001\u5C0F\u578B\u533A\u57DF\u7684\u8BBE\u8BA1\u4EE5\u53CA\u7269\u54C1\uFF08\u8863\u7269\u3001\u6C7D\u8F66\u7B49\uFF09\u8BBE\u8BA1\u3002 "
+  - "\u5546\u7528\u5C55\u4F1A\u3001\u5927\u578B\u516C\u5171\u533A\u57DF\u7684\u8BBE\u8BA1\u90FD\u53EF\u4EE5\u5B8C\u6210\u3002 "
+  UpgradeExplain: "\u5546\u7528\u5C55\u4F1A\u3001\u5927\u578B\u516C\u5171\u533A\u57DF\u7684\u8BBE\u8BA1\u90FD\u53EF\u4EE5\u5B8C\u6210\u3002 "
+  HardwareList:
+  - {fileID: 11400000, guid: b8a74343b4ea2b143b65d3c53a358cc0, type: 2}
+  - {fileID: 11400000, guid: e1b426f1dd711db4c96b4e79e8d98a40, type: 2}
